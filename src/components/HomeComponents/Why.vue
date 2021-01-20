@@ -16,7 +16,7 @@
                         <v-col cols="12" xs="12" md="6" sm="6" lg="6" xl="6" v-for="i in 4" :key="i.i">
                             <v-row>
                                 <v-col cols="12" xs="4" sm="4" md="4" lg="4" xl="4">
-                                    <v-icon size="30px" color="black">mdi-gradient-horizontal</v-icon>
+                                    <v-icon size="30px" color="black">mdi-desktop-mac-dashboard</v-icon>
                                 </v-col>
                                 <v-col cols="8">
                                     hello woeld
