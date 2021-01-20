@@ -14,11 +14,11 @@
                  <v-col cols="12" xs="12" md="10" sm="10" lg="10" xl="10">
                     <v-row>
                         <v-col cols="12" xs="12" md="6" sm="6" lg="6" xl="6" v-for="i in why" :key="i.i">
-                            <v-row align="center">
-                                <v-col cols="12" xs="4" sm="4" md="4" lg="4" xl="4">
+                            <v-row align="center" no-gutters>
+                                <v-col cols="4" xs="4" sm="4" md="4" lg="4" xl="4">
                                     <v-icon size="70px" color="blue lighten-2">{{i.icon}}</v-icon>
                                 </v-col>
-                                <v-col cols="8">
+                                <v-col cols="8" xs="8" sm="8" md="8" lg="8" xl="8">
                                     <p class="font-weight-bold">{{i.title}}</p>
                                     <p class="text-caption grey--text darken-3--text">{{i.desc}}</p>
                                 </v-col>
