@@ -1,8 +1,11 @@
 <template>
   <div>
       <v-row align="center" justify="center">
-          <v-col cols="12" xs="12" sm="6" md="6" lg="6" xl="6">
-
+          <v-col cols="12" xs="12" sm="6" md="6" lg="6" xl="6" align-self="right">
+              <!-- images -->
+              <div class="d-none d-sm-flex" >
+                  <v-img width="300" style="box-shadow: 0px 0px 20px black" position="right right" src="./../../assets/austin.jpg"></v-img>
+              </div>
           </v-col>
           <v-col cols="12" xs="12" sm="6" md="6" lg="6" xl="6">
               <div>

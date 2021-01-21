@@ -1,6 +1,9 @@
 <template>
   <div class="home">
     <Why />
+    <br>
+    <br>
+  
     <v-row align="center" justify="center">
       <v-col cols="1" xs="12" sm="2" md="2" lg="1" xl="1" />
       <v-col cols="10" xs="12" sm="8" md="8" lg="8" xl="8">
